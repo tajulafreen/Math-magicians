@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Buttons from './button';
-
+import calculate from '../logic/calculate';
 import './calculator.css';
 
 const Calculator = () => {
@@ -14,7 +14,7 @@ const Calculator = () => {
 
   const Handleclick = (e) => {
     const input = e.target.innerHTML;
-    setResult(result, input);
+    setResult(calculate(result, input));
   };
   const data = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
   return (
