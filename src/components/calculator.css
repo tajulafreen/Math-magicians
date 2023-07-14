@@ -9,7 +9,8 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr  1fr;
-  width: 520px;
+  width: 400px;
+  margin-left: 15px;
 }
 
 .span-2 {
