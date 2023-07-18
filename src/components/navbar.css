@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 5rem 2rem 5rem;
+  background-color: #c7e9fb;
+  padding: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+  border-right: 3px solid black;
+}
