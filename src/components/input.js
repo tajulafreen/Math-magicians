@@ -18,29 +18,33 @@ const Calculator = () => {
   };
   const data = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
   return (
-    <div className="container">
-      <div className="input-container">{ next || operation || total || 0 }</div>
-      {data.map((element) => (
-        element === '÷' || element === 'x' || element === '-' || element === '=' || element === '+'
-          ? (
-            <Buttons
-              className="btn"
-              key={element}
-              backgroundcolor="orange"
-              symbol={element}
-              onClick={Handleclick}
-            />
-          )
-          : (
-            <Buttons
-              className="btn"
-              key={element}
-              backgroundcolor="gray"
-              symbol={element}
-              onClick={Handleclick}
-            />
-          )
-      ))}
+    <div className="calculator">
+      <h2>Let us do some Maths!</h2>
+      <div className="container">
+        <div className="input-container">{next || operation || total || 0}</div>
+        {data.map((element) => (
+          element === '÷' || element === 'x' || element === '-'
+            || element === '=' || element === '+'
+            ? (
+              <Buttons
+                className="btn"
+                key={element}
+                backgroundColor="orange"
+                symbol={element}
+                onClick={Handleclick}
+              />
+            )
+            : (
+              <Buttons
+                className="btn"
+                key={element}
+                backgroundColor="gray"
+                symbol={element}
+                onClick={Handleclick}
+              />
+            )
+        ))}
+      </div>
     </div>
   );
 };

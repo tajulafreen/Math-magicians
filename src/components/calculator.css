@@ -32,3 +32,14 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem 16rem;
+}
+
+.calculator h2 {
+  font-size: 2rem;
+}

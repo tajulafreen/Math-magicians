@@ -1,6 +1,19 @@
 .app {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100vh;
+  flex-direction: column;
+  height: 200vh;
+  background-color: #b8e2f9;
+  background-image: linear-gradient(315deg, #bae2f5 0%, #c731f9 74%);
 }
+
+@media only screen and (max-width: 768px) {
+  .app {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+}
+
+  
+
