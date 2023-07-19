@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component should match the snapshot 1`] = `
+<div>
+  <header>
+    <h1>
+      Math Magician
+    </h1>
+    <nav>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        href="/calculator"
+      >
+        Calculator
+      </a>
+      <a
+        href="/quotes"
+      >
+        Quotes
+      </a>
+    </nav>
+  </header>
+</div>
+`;

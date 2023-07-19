@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component should match the snapshot 1`] = `
+<div>
+  <div
+    class="calculator"
+  >
+    <h2>
+      Let us do some Maths!
+    </h2>
+    <div
+      class="container"
+    >
+      <div
+        class="input-container"
+      >
+        0
+      </div>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        %
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        x
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="span-2 undefined"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        .
+      </button>
+      <button
+        class=" undefined"
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
