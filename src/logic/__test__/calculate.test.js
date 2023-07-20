@@ -1,4 +1,4 @@
-import calculate from "../calculate";
+import calculate from '../calculate';
 
 const objParamAc = [
   {
@@ -18,7 +18,7 @@ const objParamAc = [
 for (let i = 0; i < objParamAc.length; i += 1) {
   test('calculate function returns object based on parameter', () => {
     expect(calculate(
-      objParamAc[i].identifier, objParamAc[i].identifier
+      objParamAc[i].identifier, objParamAc[i].identifier,
     )).toEqual(objParamAc[i].returnObj);
   });
 }

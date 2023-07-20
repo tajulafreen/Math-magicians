@@ -1,4 +1,4 @@
-import operate from "../operate";
+import operate from '../operate';
 
 test('operate function returns calculated result', () => {
   expect(operate(2, 3, '+')).toBe('5');
