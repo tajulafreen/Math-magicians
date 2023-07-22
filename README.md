@@ -64,6 +64,8 @@
 
 To get a local copy up and running, follow these steps.
 
+## Live Demo
+<a href="https://math-magician-25zc.onrender.com/>Check the Demo</a>
 ### Prerequisites
 
 In order to run this project you need node package manager<br>
